@@ -1627,7 +1627,7 @@ p.image-list-title-box-description {
 }
 
 .whatsapp-number-two {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--h1-heading-color);
 }
@@ -2153,5 +2153,6 @@ i.bx.bx-plus {
     rotate: 134deg;
     font-size: 40px;
     cursor: pointer;
+   
 }
 /* POPOP PAGE SECTION END */
