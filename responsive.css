@@ -636,6 +636,19 @@
         width: 100% !important;
         padding: 0px 10px;
     }
+    .form-main-box {
+        width: 100%;
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .form-tag {
+        width: 100% !important;
+    }
+    .form-main-box-right {
+        width: 100% !important;
+        padding: 10px 10px;
+    }
 }
 @media (max-width:425px) {
     .testimonial-background-image {
@@ -801,5 +814,35 @@
         width: 100% !important;
         border-radius: 20px;
         overflow: hidden;
+    }
+    .form-main-box-left {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .form-main-box-left-left-box {
+        width: 100% !important;
+        padding: 10px 10px;
+    }
+    .form-main-box-left-right-box {
+        width: 100% !important;
+        padding: 10px 10px;
+    }
+    #about-hero {
+        background: var(--h2-heading-color);
+        height: fit-content !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("images/about-hero-bg.webp");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 140px;
+    }
+    .order-form-heading {
+        text-align: center;
+        font-size: 30px !important;
+        font-weight: 700;
     }
 }

@@ -141,7 +141,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
 
 .header-logo {
     position: absolute;
-    width: 12%;
+    width: 10%;
     left: 100px;
     top: 5px;
 }
@@ -919,13 +919,14 @@ section#services {
 }
 
 .writer-main-box-left {
-    width: 49%;
-
+    width: 100%;
 }
 
 .writer-main-box-left-sub-box {
-    width: 100%;
+    width: 60%;
     display: flex;
+    /* border: 2px solid red; */
+    margin: auto;
 }
 
 .writer-main-box-left-sub-box-left {
@@ -1894,13 +1895,15 @@ p.image-list-title-box-description {
     transition: all .4s ease-in-out;
     cursor: poin;
 }
-.pricing-page-main-box-sub-box:hover{
+
+.pricing-page-main-box-sub-box:hover {
     box-shadow: 4px 4px 10px gray;
 }
+
 .pricing-page-main-box-sub-box-red-box {
     width: 100%;
     height: 300px;
-    background:var( --live-chat-btn-color);
+    background: var(--live-chat-btn-color);
     border-radius: 15px;
     margin-bottom: 15PX;
     display: flex;
@@ -1920,32 +1923,38 @@ p.image-list-title-box-description {
 .pricing-page-main-box-sub-box-description img {
     margin-right: 5px;
 }
+
 .Basic-heading {
     color: white;
     margin-bottom: 20px;
 }
+
 .resume-writing-text {
     color: white;
     margin-top: 15px;
     font-size: 20px;
 }
+
 .resume-pricing-amount {
     font-size: 50px;
     color: white;
     margin-bottom: 0px;
     margin-top: 10px;
 }
-#fix-pricing{
+
+#fix-pricing {
     background: #e8e8e8;
 }
-.fix-pricing-heading-box{
+
+.fix-pricing-heading-box {
     width: 100%;
     /* border: 2px solid orchid; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.fix-pricing-main-box{
+
+.fix-pricing-main-box {
     width: 100%;
     /* border: 2px solid orangered; */
     display: flex;
@@ -1955,16 +1964,19 @@ p.image-list-title-box-description {
     flex-wrap: wrap;
     gap: 20px;
 }
+
 .fix-pricing-heading-style {
     font-size: 40px;
     margin: 0px;
     color: #979797;
 }
+
 .fix-pricing-h3-heading-style {
     font-size: 40px;
     margin: 0px;
     color: #de0d0b;
 }
+
 .discount-pricings {
     font-size: 25px;
     font-weight: 500;
@@ -1972,9 +1984,10 @@ p.image-list-title-box-description {
     margin-right: 30px;
     color: #979797;
 }
-.fix-pricing-main-box-sub-box{
+
+.fix-pricing-main-box-sub-box {
     width: 350px;
-    background: var( --live-chat-btn-color);
+    background: var(--live-chat-btn-color);
     padding: 25px 2px;
     border-radius: 10px;
     display: flex;
@@ -1982,18 +1995,22 @@ p.image-list-title-box-description {
     /* align-items: center; */
     flex-direction: column;
 }
+
 .pricing-page-main-box-sub-box-description.text-color-change {
     color: white;
 }
+
 .fix-pricing-main-box-sub-box.color-none {
     background: none;
 }
+
 .pricing-page-main-box-sub-box-description.text-color-change.text-colors-change {
     color: black;
 }
+
 /* ===== PRICING PAGE SECTION END ===== */
 
-.whatsapp-btn-fixed{
+.whatsapp-btn-fixed {
     width: 50px;
     height: 50px;
     background: #2add4c;
@@ -2006,15 +2023,16 @@ p.image-list-title-box-description {
     align-items: center;
     z-index: 200;
 }
-.whatsapp-btn-fixed i{
-    font-size: 40px;
+
+.whatsapp-btn-fixed i {
+    font-size: 50px;
     color: white;
 }
 
 /* COUNTRY PAGE SECTION START  */
-#country-hero{
+#country-hero {
     background-image: url("images/hero-banner.webp");
-    background-position:center center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 85vh;
@@ -2024,128 +2042,153 @@ p.image-list-title-box-description {
     overflow: hidden;
     position: relative;
 }
-.country-hero-main-box{
+
+.country-hero-main-box {
     width: 100%;
     margin-top: 90px;
 }
-.jordeon-flage{
+
+.jordeon-flage {
     position: absolute;
     top: 0px;
     right: -51px;
     width: 740px;
 }
+
 .country-page-main-heading {
     color: white;
     font-size: 50px;
 }
+
 .country-main-heading-display-block {
     display: block;
 }
+
 .about-us-image.adjust-position {
     position: absolute;
     left: -164px;
     width: 788px;
     z-index: 5;
 }
+
 .jordon-discount-image {
     top: -77px !important;
     width: 90% !important;
 }
+
 .egypt-flage {
     position: absolute;
     top: 104px;
     right: -39px;
 }
-.egypt-about-image-adjust{
+
+.egypt-about-image-adjust {
     position: absolute;
     left: -46px;
     width: 801px;
     z-index: 5;
 }
+
 .ksa-flage {
     position: absolute;
     top: 0px;
     right: 0px;
     width: 624px;
 }
+
 .kuwait-about-image-adjust {
     position: absolute;
     width: 529px;
 }
+
 .kuwait-discount-image {
     width: 516px !important;
     position: absolute !important;
     left: -123px !important;
     z-index: 5 !important;
 }
-.kuwait-discount{
+
+.kuwait-discount {
     width: 485px !important;
 }
-.qatar-flage{
+
+.qatar-flage {
     position: absolute;
     top: 117px;
     right: 0px;
 }
+
 .about-us-image.adjust-position.qatar-about {
     width: 390px;
     position: absolute;
     left: 65px !important;
 }
-.mobile-qatar-image{
+
+.mobile-qatar-image {
     display: none;
 }
-.qatar-heading{
+
+.qatar-heading {
     display: none;
 }
+
 .bharain-flage {
     top: 126px;
 }
+
 .bharai-about {
     width: 551px;
 }
+
 .bharain-discount {
     top: -67px;
     width: 419px;
     left: -95px;
 }
+
 /* COUNTRY PAGE SECTION END */
 /* POPOP PAGE SECTION START */
-.popup{
-width: 400px;
-background: white;
-border-radius: 6px;
-position: absolute;
-top: 0%;
-left: 50%;
-transform: translate(-50% -50%) scale(0.5);
-text-align: center;
-padding: 30px 30px 30px;
-visibility: hidden;
-transition: transform 0.4s, top 0.4s;
+.popup {
+    width: 400px;
+    background: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50% -50%) scale(0.5);
+    text-align: center;
+    padding: 30px 30px 30px;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
 }
-.open-popuup{
+
+.open-popuup {
     visibility: visible;
     top: 50%;
     transform: translate(-50% -50%) scale(1);
 }
-.popup i{
+
+.popup i {
     font-size: 60px;
     color: #b70016;
 }
-.popup-btn{
+
+.popup-btn {
     width: 100%;
-padding: 10px 50px;
-border: none;
-border-radius: 10px;
-background: #b70016;
-color: white;
-font-size: 20px;
-cursor: pointer;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background: #b70016;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
-.plus-icon{
+
+.plus-icon {
     font-size: 20px;
     margin-right: 0px;
 }
+
 i.bx.bx-plus {
     position: absolute;
     top: 4px;
@@ -2153,6 +2196,295 @@ i.bx.bx-plus {
     rotate: 134deg;
     font-size: 40px;
     cursor: pointer;
-   
+
 }
+
 /* POPOP PAGE SECTION END */
+
+/* TESTIMONIAL CSS  */
+.testimonial {
+    width: 100%;
+    margin: auto;
+}
+
+.testimonial-text {
+    /* background: #ff0050; */
+    color: white;
+    width: 100%;
+    height: 390px;
+    position: relative;
+    /* box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2); */
+}
+
+.user-text {
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    display: none;
+}
+
+.user-pix {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.writer-name {
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.testimonial-pic {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.user-pic {
+    width: 150px;
+    padding: 5px;
+    border-radius: 20%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.user-text.active-text {
+    display: block;
+}
+.global-rating {
+    display: block;
+    font-size: 26px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+}
+.user-pic.active-pic {
+    width: 160px;
+    /* border: 3px solid #ff0058; */
+}
+
+.display-flex {
+    display: flex !important;
+}
+.extra-box{
+    width: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+
+}
+.extra-box-left{
+    width: 70%;
+    /* border: 2px solid orangered; */
+    display: flex;
+}
+.extra-box-right{
+    width: 30%;
+    /* border: 2px solid olive; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-extra-box-left {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: start;
+}
+.text-extra-box-left-description {
+    margin: 0px;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: start;
+}
+.extra-box-left-description{
+    width: 50%;
+}
+.writer-btn-text-color-change{
+    color: white !important;
+}
+/* TESTIMONIAL CSS  */
+/* ORDER PAGE CSS  */
+.form-main-box{
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.form-main-box-left{
+    width: 100%;
+    /* border: 2px solid olivedrab; */
+    display: flex;
+}
+.form-main-box-left-left-box{
+    width: 50%;
+    /* border: 2px solid orangered; */
+    padding: 10px 10px;
+}
+.form-main-box-left-right-box{
+    width: 50%;
+    /* border: 2px solid rgb(54, 14, 0); */
+    padding: 10px 10px;
+}
+.text-area-box{
+    width: 100%;
+    /* border: 2px solid black; */
+    padding: 10px 10px;
+}
+.form-tag{
+    width: 70%;
+    /* border: 2px solid orange; */
+}
+.careel-level {
+    width: 100%;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    outline: none;
+    margin-top: 4px;
+}
+textarea.text-area {
+    width: 100%;
+    min-height: 150px !important;
+    max-height: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+}
+.careel-level.adjust-margin-bottom {
+    margin: 0px;
+    margin-top: 4px;
+}
+.name {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+.contact-number {
+    margin: 0px;
+}
+.name-tag {
+    font-weight: 600;
+    margin-left: 20px;
+}
+.contact-number {
+    margin: 0px;
+    margin-top: 5px;
+}
+.name-tag.career-tag {
+    margin-left: 8px;
+}
+.order-form-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.form-main-box-right{
+    width: 30%;
+    /* border: 2px solid rgb(170, 255, 0); */
+    padding: 10px 10px;
+}
+.summary-box{
+    width: 100%;
+    background: var(--live-chat-btn-color);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.summary-heading {
+    text-align: center;
+    color: white;
+    margin: 0px;
+    margin-bottom: 21px;
+}
+.first-summary-empty-box{
+    width: 100%;
+    border: 1px solid white;
+    margin: 14px 0px;
+}
+.summary-title {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.check-box{
+    width: 100%;
+    /* border: 2px solid orangered; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.check-box input{
+    margin-right: 5px;
+}
+.iagree-checkbox {
+    font-size: 20px;
+    text-align: center;
+}
+.iagree-checkbox a{
+    color: black;
+}
+.total-price{
+    width: 100%;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+.price-tag {
+    font-size: 30px;
+    font-weight: 500;
+    color: red;
+}
+.total-price-amount {
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+}
+.total-price-heading {
+    font-size: 25px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    .submit-btn {
+    width: 100%;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px var(--second-description-color);
+    transition: all .4s ease-in-out;
+    font-size: 20px;
+    background: var(--live-chat-btn-color);
+    color: white;
+}
+.submit-btn:hover{
+    transform: translateY(-5px);
+}
+/* ORDER PAGE CSS  */
+/* ORDER PAGE CSS  */
+.whatsapp-btn-fixed{
+    width: 60px;
+    height:60px;
+    background: #2add4c;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ORDER PAGE CSS  */
