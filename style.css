@@ -914,16 +914,17 @@ section#services {
 .writer-main-box {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 50px;
 }
 
 .writer-main-box-left {
-    width: 100%;
+    width: 60%;
+    /* border: 2px solid purple; */
 }
 
 .writer-main-box-left-sub-box {
-    width: 60%;
+    width: 100%;
     display: flex;
     /* border: 2px solid red; */
     margin: auto;
@@ -1026,7 +1027,13 @@ section#services {
     color: var(--h1-heading-color);
     font-size: 35px;
 }
-
+.first-left-box{
+    width: 40%;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* ===== WRITER SECTION END ===== */
 /* ===== PROCESS SECTION START ===== */
 .process-main-box {
@@ -2211,7 +2218,7 @@ i.bx.bx-plus {
     /* background: #ff0050; */
     color: white;
     width: 100%;
-    height: 390px;
+    height: 430px;
     position: relative;
     /* box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2); */
 }
