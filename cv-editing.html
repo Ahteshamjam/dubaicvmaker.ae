@@ -204,6 +204,9 @@
         <!-- ===== SUB HERO SECTION START =====  -->
         <section id="sub-hearo" class="containers">
             <section class="inner-section">
+                <img src="images/First-Vector.webp" alt="Vector" class="sub-hero-first-vector">
+                <img src="images/Four-Vector.webp" alt="Vector" class="sub-hero-second-vector">
+                <img src="images/Six-Vector.webp" alt="Vector" class="sub-hero-third-vector">
                 <div class="sub-hero-main-box">
                     <div class="sub-hero-main-box-left">
                         <img src="images/CV Editing/cv-editing-laptop-images.webp" alt="Choose Us Image"
@@ -382,8 +385,8 @@
             </section>
         </section>
         <!-- ===== SECOND PARA SECTION END =====  -->
-          <!-- ===== WRITER SECTION START =====  -->
-          <section id="writer" class="containers">
+        <!-- ===== WRITER SECTION START =====  -->
+        <section id="writer" class="containers">
             <section class="inner-section">
                 <h2 class="writer-main-heading">CV Writing</h2>
                 <h3 class="writer-sub-heading">CHOOSE YOUR WRITER</h3>
@@ -818,6 +821,24 @@
         });
     </script>
     <!-- COUNTER JS END  -->
+     <!-- WRITER JS  -->
+    <script>
+        let controls = document.querySelectorAll('.testimonial-pic img.user-pic')
+        let content = document.querySelectorAll('.testimonial-text .user-text');
+        for (let ii = 0; ii < controls.length; ii++) {
+            controls[ii].addEventListener('click', function () {
+                content.forEach((cont) => {
+                    cont.classList.remove('active-text');
+                })
+                content[ii].classList.add('active-text');
+
+                controls.forEach((control) => {
+                    control.classList.remove('active-pic');
+                })
+                controls[ii].classList.add('active-pic');
+            })
+        }
+    </script>
 </body>
 
 </html>
