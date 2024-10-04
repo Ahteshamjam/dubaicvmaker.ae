@@ -197,71 +197,58 @@
                         <div class="form-main-box-left">
                             <div class="form-main-box-left-left-box">
                                 <span class="name-tag">Careel Level</span>
-                                <select name="" id="" class="careel-level" required>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
-                                    <option value="Careel Level">Enter level -0 to 2 years</option>
+                                <select name="careellevel" id="careellevel" class="careel-level" required>
+                                    <option value="Careel Level">Entry Level - 0 to 2 Years</option>
+                                    <option value="Careel Level">Mid Lavel - 3 to 7 Years</option>
+                                    <option value="Careel Level">Senior - 8 + Years</option>
+                                    <option value="Careel Level">Expert - 15 + Years</option>
+                                    
                                 </select>
                                 <span class="name-tag">Select Service</span>
-                                <select name="" id="" class="careel-level" required>
-                                    <option value="Careel Level">Select Service</option>
-                                    <option value="Careel Level">CV / Resume</option>
-                                    <option value="Careel Level">CV / Resume</option>
-                                    <option value="Careel Level">CV / Resume</option>
-                                    <option value="Careel Level">CV / Resume</option>
-                                    <option value="Careel Level">CV / Resume</option>
-                                    <option value="Careel Level">CV / Resume</option>
-                                    <option value="Careel Level">CV / Resume</option>
-                                    <option value="Careel Level">CV / Resume</option>
+                                <select name="service" id="service" class="careel-level" required>
+                                    <option value="cvresume">CV / Resume</option>
+                                    <option value="coverletterwriting">Cover Letter Writing</option>
+                                    <option value="linkedInprofile">LinkedIn Profile</option>
+                                    <option value="cvwritingcoverletterwriting">CV Writing + Cover Letter Writing</option>
+                                    <option value="cvwritinglinkedinprofilewriting">CV Writing + LinkedIn Profile Writing</option>
+                                    <option value="cvwritinglinkedinprofilewritingcoverletter">CV Writing + Cover Letter + LinkedIn Profile</option>
                                 </select>
                                 <span class="name-tag">Deadline</span>
-                                <select name="" id="" class="careel-level adjust-margin-bottom" required>
-                                    <option value="Careel Level">Deadline</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
-                                    <option value="Careel Level">7 Days Thursday 7/11/2024</option>
+                                <select name="deadline" id="deadline" class="careel-level adjust-margin-bottom" required>
+                                    <option value="7days">7 Days Wednesday 7/17/2024</option>
+                                    <option value="4days">4 Days Sunday 7/14/2024</option>
+                                    <option value="2days">2 Days Friday 7/12/2024</option>
+                                    <option value="1days">1 Day Thursday 7/11/2024</option>
                                 </select>
                             </div>
                             <div class="form-main-box-left-right-box">
                                 <span class="name-tag">Full Name</span>
-                                <input type="text" name="" id="" class="name" placeholder="Your Name">
+                                <input type="text" name="" id="" class="name" placeholder="Your Name" required>
                                 <span class="name-tag">Email</span>
-                                <input type="email" name="" id="" class="name" placeholder="Your Email">
+                                <input type="email" name="" id="" class="name" placeholder="Your Email" required>
                                 <span class="name-tag">Contact Number</span>
                                 <input type="number" name="" id="" class="name contact-number"
-                                    placeholder="Your Contact Number">
+                                    placeholder="Your Contact Number" required>
                             </div>
                         </div>
                         <div class="text-area-box">
                             <span class="name-tag career-tag">Career document instructions</span>
-                            <textarea name="" id="" cols="30" rows="10" required class="text-area"
-                                placeholder="Write your message here"> </textarea>
+                            <textarea name="" id="" cols="30" rows="10" required class="text-area" placeholder="Write your message here"> </textarea>
                         </div>
                     </form>
-                    <div class="form-main-box-right">
+                    <div class="form-main-box-right" >
                         <div class="summary-box">
                             <h3 class="summary-heading">Your Order Summary</h3>
                             <div class="first-summary-empty-box"></div>
                             <p class="summary-title"><span class="summary-level-heading">Level:</span><span
-                                    class="summary-level-title">Enter level -0 to 2 years</span></p>
+                                    class="summary-level-title" id="careellevels">Enter level -0 to 2 years</span></p>
                             <p class="summary-title"><span class="summary-level-heading">Services:
-                                </span><span class="summary-level-title">CV / Resume</span></p>
+                                </span><span class="summary-level-title" id="services">CV / Resume</span></p>
                             <div class="first-summary-empty-box"></div>
                             <p class="summary-title"><span class="summary-level-heading">Deadline:</span><span
-                                    class="summary-level-title">7 Days Thursday 7/11/2024</span></p>
+                                    class="summary-level-title" id="deadlines">7 Days Thursday 7/11/2024</span></p>
                             <p class="summary-title"><span class="summary-level-heading">Total Price:</span><span
-                                    class="summary-level-title">100 AED</span></p>
+                                    class="summary-level-title" >100 AED</span></p>
                         </div>
                         <div class="check-box">
                             <input type="checkbox" name="txtAgree" id="txtAgree">
@@ -376,6 +363,34 @@
     <a href="https://api.whatsapp.com/send/?phone=+971553745389&text=Hi%2C+I+saw+your+website+dubaicvmaker.ae&type=phone_number&app_absent=0"><i class='bx bxl-whatsapp'></i></a> 
   </div>
  <!-- ===== WHATSAPP BTN SECTION END =====  -->
+
+
+ <script>
+document.getElementById('careellevel').addEventListener('change', function() {
+    // Get the selected option's text
+    var selectedText = this.options[this.selectedIndex].text;
+    
+    // Update the content of the div with id 'careellevels'
+    document.getElementById('careellevels').textContent = selectedText;
+});
+document.getElementById('service').addEventListener('change', function() {
+    // Get the selected option's text
+    var selectedText = this.options[this.selectedIndex].text;
+    
+    // Update the content of the div with id 'services'
+    document.getElementById('services').textContent = selectedText;
+});
+document.getElementById('deadline').addEventListener('change', function() {
+    // Get the selected option's text
+    var selectedText = this.options[this.selectedIndex].text;
+    
+    // Update the content of the div with id 'deadlines'
+    document.getElementById('deadlines').textContent = selectedText;
+});
+
+
+
+ </script>
 </body>
 
 </html>
